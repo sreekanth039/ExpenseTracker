@@ -18,12 +18,12 @@ It helps users record, categorize, visualize, and manage their daily expenses us
 - Date
 - Edit or remove existing transactions.
 - All expenses are stored in localStorage, so no backend needed.
-- 
+
 ✅ Interactive Data Visualisation
 - Pie Chart to show category-wise spending.
 - Bar Chart to show top spending categories.
 - Charts update automatically whenever new expenses are added.
-- 
+
 ✅ Recent Transactions List
 - Displays all recent expenses in a clean list.
 - Shows date, category, amount, and action buttons (edit/delete).
