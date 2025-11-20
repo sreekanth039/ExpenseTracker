@@ -6,7 +6,7 @@ import BarChart from "../components/barChart/barChart.jsx";
 import TransactionList from "../components/transactionList/transactionList.jsx";
 import Modal from "../components/modal/modal.jsx";
 import AddBalanceForm from "../components/modalForms/addBalanceForm/addBalanceForm.jsx";
-import ExpenseForm from "../components/modalForms/ExpenseForm/ExpenseForm.jsx";
+import ExpenseForm from "../components/modalForms/expenseForm/expenseForm.jsx";
 
 const Home = () => {
   let [balance, setBalance] = useState(0);
