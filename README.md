@@ -1,16 +1,42 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive Expense Tracking application built with React + Vite.
+It helps users record, categorize, visualize, and manage their daily expenses using interactive charts and responsive UI components.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Add Income / Update Balance
+- Maintain your wallet balance.
+- Add new income amounts.
+- Balance persists using localStorage.
 
-## React Compiler
+✅ Add, Edit & Delete Expenses
+- Add any type of expense with:
+- Title
+- Price
+- Category (Food, Entertainment, Travel)
+- Date
+- Edit or remove existing transactions.
+- All expenses are stored in localStorage, so no backend needed.
+- 
+✅ Interactive Data Visualisation
+- Pie Chart to show category-wise spending.
+- Bar Chart to show top spending categories.
+- Charts update automatically whenever new expenses are added.
+- 
+✅ Recent Transactions List
+- Displays all recent expenses in a clean list.
+- Shows date, category, amount, and action buttons (edit/delete).
+  
+✅ Responsive & Modern UI
+- Built using custom components.
+- Clean dashboard layout with cards and charts.
+- Fully responsive for desktop and mobile screens.
+  
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React	 -- Frontend component architecture
+- Vite	 -- Fast bundling and development server
+- Recharts	-- Pie & Bar charts
+- localStorage --	Client-side data persistence
+- CSS Modules --	Scoped and maintainable styling
