@@ -1,7 +1,7 @@
 import TransactionCard from "../transactionCard/TransactionCard";
 import styles from "./transactionList.module.css";
 import Modal from "../modal/modal";
-import ExpenseForm from "../modalForms/ExpenseForm/ExpenseForm";
+import ExpenseForm from "../modalForms/expenseForm/expenseForm";
 import { useEffect, useState } from "react";
 import Pagination from "../pagination/pagination";
 
